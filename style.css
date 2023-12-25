@@ -486,7 +486,7 @@ body {
     
     body {
         width: 100vw;
-        height: 100vh;
+        height: 350vh;
     }
     
     .navi {
@@ -960,7 +960,7 @@ body {
     
     body {
         width: 100vw;
-        height: 100vh;
+        height: 400vh;
     }
     
     .navi {
@@ -1321,7 +1321,7 @@ body {
     
     body {
         width: 100vw;
-        height: 100vh;
+        height: 500vh;
     }
     
     .navi {
@@ -1634,7 +1634,7 @@ body {
     
     body {
         width: 100vw;
-        height: 100vh;
+        height: 500vh;
     }
     
     .navi {
@@ -1645,7 +1645,7 @@ body {
         position: sticky;
         top: 0;
         width: 100vw;
-        z-index: 9999;
+        z-index: 99;
         background-color: #FEBE10;
         transition: 0.4s ease-in-out;
     }
