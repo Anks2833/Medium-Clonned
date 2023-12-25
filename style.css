@@ -1322,7 +1322,7 @@ body {
     
     body {
         width: 100vw;
-        height: 600vh;
+        height: 500vh;
     }
     
     .navi {
@@ -1814,7 +1814,6 @@ body {
         position: relative;
         left: 50px;
         bottom: 7px;
-        /* font-family: 'Josefin Sans', sans-serif; */
     }
     
     .neeche {
@@ -1838,7 +1837,7 @@ body {
         margin-top: 80px;
         gap: 120px;
         margin-left: -150px;
-        padding-left: 50px;
+        padding-left: 35px;
     }
     
     .bott1 {
