@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mooli&family=Oswald:wght@500&family=Poppins:wght@700&family=Press+Start+2P&family=Titillium+Web&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2d2d2d;
+}
+
+.navi {
+    border-bottom: 1px solid #fff;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2d2d2d;
+}
+
+.in{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    /* border-style: none; */
+}
+
+.up{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.logo {
+    /* border: 1px solid #000; */
+    height: 90px;
+    width: 200px;
+    /* margin-left: 100px; */
+}
+
+.listi {
+    width: 14%;
+    /* border: 1px solid #000; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.header{
+    width: 600px;
+    /* border: 1px solid #fff; */
+    margin-top: 130px;
+    margin-left: 35px;
+}
+
+.header h2 {
+    font-size: 85px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 85px;
+    margin-left: 35px;
+}
+
+.p1 {
+    width: 630px;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    font-size: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p{
+    width: 630px;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.5);
+    font-family: 'Mooli', sans-serif;
+}
+
+.links {
+    margin-top: 165px;
+}
+
+.link {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease-in-out;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.link span {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.read {
+    font-size: 70px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.write {
+    font-size: 70px;
+    color: #fff;
+    border-bottom: 1px solid #fff;  
+}
+
+.mem {
+    font-size: 70px;
+    color: #fff;
+}
+
+.arrow {
+    padding-right: 30px;
+}
+
+footer {
+    border-top: 1px solid #e8e8e8;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    /* border: 1px solid black; */
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    margin-right: 30px;
+}
+
+footer ul li a {
+    color: #000;
+}

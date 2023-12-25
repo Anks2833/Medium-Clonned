@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mooli&family=Oswald:wght@500&family=Poppins:wght@700&family=Press+Start+2P&family=Titillium+Web&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header {
+    /* border: 1px solid #000; */
+    margin-top: 60px;
+}
+
+.header h2 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.buttons {
+    /* border: 1px solid #000; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buttons p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.acc {
+    display: flex;
+    margin-top: 40px;
+}
+
+.acc h2 {
+    font-family: sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    row-gap: 30px;
+}
+
+.terms {
+    width: 550px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terms p {
+    font-family: sans-serif;
+}
+
+.help p {
+    font-family: sans-serif;
+}
+
+.create {
+    color: green;
+    cursor: pointer;
+}
