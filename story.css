@@ -70,6 +70,7 @@ body {
 }
 
 .main {
+    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -164,4 +165,204 @@ footer ul {
 
 footer ul li a {
     color: #000;
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+
+    .listi {
+        width: 27%;
+        /* border: 1px solid #000; */
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+
+    .logo {
+        /* border: 1px solid #000; */
+        height: 90px;
+        width: 200px;
+        margin-left: 10px; 
+    }
+    
+    .listi {
+        width: 45%;
+        /* border: 1px solid #000; */
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    
+    }
+
+    .header h2 {
+        width: 60%;
+        /* border: 1px solid #fff; */
+        font-size: 50px;
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .p1 {
+        width: 350px;
+        color: #fff;
+        /* border: 1px solid #fff; */
+        font-size: 21px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .p{
+        width: 350px;
+        color: #fff;
+        /* border: 1px solid #fff; */
+        font-size: 28px;
+        line-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(128, 128, 128, 0.5);
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .read {
+        font-size: 50px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
+    
+    .write {
+        font-size: 50px;
+        color: #fff;
+        border-bottom: 1px solid #fff;  
+    }
+    
+    .mem {
+        font-size: 50px;
+        color: #fff;
+    }
+
+    footer {
+        border-top: 1px solid #e8e8e8;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 275px) and (max-width: 380px){
+
+    .navi {
+        border-bottom: 1px solid #fff;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 100%;
+        background-color: #2d2d2d;
+    }
+
+    .listi {
+        width: 100%;
+        /* border: 1px solid #000; */
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    
+    }
+
+    .in{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        padding: 10px 15px;
+        cursor: pointer;
+        /* border-style: none; */
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    
+    .up{
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-top: -100px;
+    }
+
+    .header h2 {
+        width: 40%;
+        /* border: 1px solid #fff; */
+        font-size: 30px;
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .p1 {
+        width: 200px;
+        color: #fff;
+        /* border: 1px solid #fff; */
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .p{
+        width: 200px;
+        color: #fff;
+        /* border: 1px solid #fff; */
+        font-size: 16px;
+        line-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(128, 128, 128, 0.5);
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .read {
+        font-size: 25px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
+    
+    .write {
+        font-size: 25px;
+        color: #fff;
+        border-bottom: 1px solid #fff;  
+    }
+    
+    .mem {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    footer {
+        border-top: 1px solid #e8e8e8;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer ul li a {
+        font-size: 12px;
+        color: #000;
+    }
+
 }

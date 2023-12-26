@@ -88,3 +88,71 @@ footer {
     color: green;
     cursor: pointer;
 }
+
+@media (min-width: 300px) and (max-width: 400px){
+
+    .buttons button {
+        background-color: transparent;
+        border: 1px solid #000;
+        border-radius: 20px;
+        width: 230px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .acc h2 {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        row-gap: 30px;
+    }
+
+
+    .terms {
+        width: 250px;
+        /* border: 1px solid #000; */
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    
+    body{
+        height: 100%;
+    }
+
+    .terms {
+        width: 300px;
+
+        /* border: 1px solid #000; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+
+    .terms {
+        width: 430px;
+        border: 1px solid #000;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}

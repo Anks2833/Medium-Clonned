@@ -1350,8 +1350,14 @@ body {
     }
 
     
-    .navi ul li a{
+    .disnone{
         display: none;
+    }
+
+    .getstart{
+
+        font-size: 10px;
+        margin-left: 10px;
     }
     
     .logo {
@@ -1656,9 +1662,16 @@ body {
     }
 
     
-    .navi ul li a{
+    .disnone{
         display: none;
     }
+
+    .getstart{
+
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
     
     .logo {
         height: 25px;
